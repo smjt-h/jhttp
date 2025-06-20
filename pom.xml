@@ -127,4 +127,16 @@
         </snapshots>
       </repository>
     </repositories>
+    <pluginRepositories>
+      <pluginRepository>
+        <id>maven-dev</id>
+        <url>https://pkg.harness.io/pkg/9UuUfLwaQ-6ZowvbG7qtLQ/testmvncache2/maven</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </pluginRepository>
+    </pluginRepositories>
 </project>

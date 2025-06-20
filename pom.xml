@@ -113,4 +113,18 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <repositories>
+      <repository>
+        <id>maven-dev</id>
+        <url>https://pkg.harness.io/pkg/9UuUfLwaQ-6ZowvbG7qtLQ/testmvncache2/maven</url>
+        <releases>
+          <enabled>true</enabled>
+          <updatePolicy>always</updatePolicy>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+          <updatePolicy>always</updatePolicy>
+        </snapshots>
+      </repository>
+    </repositories>
 </project>
